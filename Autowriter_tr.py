@@ -1,4 +1,4 @@
-#A code that allows you to automatically type what you want at any time. (the program stops if you take the mouse cursor to the top of the screen)
+#İstediğiniz şeyi istediğiniz defa otomatik olarak yazmanızı sağlayan bir kod. (fare imlecini ekranın solüstüne götürürseniz program durur)
 import pyautogui
 import time
 
