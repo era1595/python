@@ -147,7 +147,7 @@ if ols=="LMSTUDİO" or "LMSTUDIO":
                             print(f"Asistan: {response_text}")
                             if response_text:
                                 clean_responce_text=clean_response(response_text)
-                                speak(clean_response)
+                                speak(clean_response_text)
                             else:
                                 speak("Yanıtımda seslendirilecek herhangi bir içerik bulamadım.")
                         elif input_text=="programdan çık":
@@ -203,7 +203,7 @@ elif ols=="OLLAMA":
                             print(f"Asistan: {response_text}")
                             if response_text:
                                 clean_responce_text=clean_response(response_text)
-                                speak(clean_response)
+                                speak(clean_response_text)
                             else:
                                 speak("Yanıtımda seslendirilecek herhangi bir içerik bulamadım.")
                         elif input_text=="programdan çık":
